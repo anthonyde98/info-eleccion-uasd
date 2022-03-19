@@ -1,0 +1,31 @@
+.card{  
+    border: 0.3px solid rgb(216, 216, 216);
+    box-shadow: 0 2px 8px 0 rgba(73, 73, 73, 0.44);
+}
+
+.head{
+    font-size: 20px;
+    margin-bottom: 0;
+    color: rgb(64, 113, 204);
+}
+
+.text{
+    margin-top: 0px;
+    font-size: 15px;
+    color: rgb(80, 81, 83);
+}
+
+.btn{
+    border: 0.3px solid rgb(59, 123, 241);
+    box-shadow: 0 2px 8px 0 rgba(179, 179, 179, 0.44);
+}
+
+@media (max-width: 600px) {
+    .info{
+        display: block !important;
+    }
+    .text-info{
+        margin-top: 10px !important;
+        margin-bottom: 15px !important;
+    }
+}
